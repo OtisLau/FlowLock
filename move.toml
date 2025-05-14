@@ -1,0 +1,10 @@
+[package]
+name = "smart_remittance"
+version = "0.0.1"
+authors = ["Otis Lau <otishlau@gmail.com>"]
+
+[addresses]
+project_addr = "0x0b7a16c68e2f64116b019549867600d23fdab3c660b2a0b5eac5c232ce6d891d"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }

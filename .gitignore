@@ -4,7 +4,11 @@ node_modules/
 build/
 .cache/
 aptos.yaml
-*.mvir
+.aptos/         
+*.mvir           
+*.mv              
 *.iml
 *.lock
-.idea/
+package-lock.json
+yarn.lock
+frontend/dist/
