@@ -1,0 +1,10 @@
+*.log
+__pycache__/
+node_modules/
+build/
+.cache/
+aptos.yaml
+*.mvir
+*.iml
+*.lock
+.idea/
